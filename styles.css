@@ -64,26 +64,30 @@ section{
 
 p{
     line-height: initial;
+    padding: initial;
 }
 
+/*the subtitles are centered and have a font size of 50*/
 h2{
     font-size: 50px;
+    text-align: center;
 }
-#aboutMe.picture{
+#pictureMe{
+    position: relative;
+    left: 300;
+}
 
-}
-picture
+/*make a border around the images that link to*/
 .boo,
-.horiseon,
-.picture{
-    padding: 5px;
+.horiseon{
+    padding: 100px;
     display: inline-flexbox;
     flex-wrap: wrap;
     background-color: rgb(4, 58, 4);
     transition: transform .2s;
     margin: 0 auto;  
 }
-
+/**makes the curser zoom in or the image when it passes over it*/
 .boo:hover,
 .horiseon:hover,
 .picture:hover{
