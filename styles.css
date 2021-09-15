@@ -48,7 +48,7 @@ nav a {
     color: var(--cran);
     padding: 14px 20px;
     text-decoration: none;
-    text-align: center   
+    text-align: center; 
 }
 
 nav a:hover{
@@ -59,14 +59,13 @@ nav a:hover{
 section{
     height: 500px;
     width: 70%;
-    margin: 50px auto;
+    margin: 50px auto 10px auto;
     border: 15px double var(--cran);
 }
 
-/* p{
-    line-height: initial;
-    padding: initial;
-} */
+section p {
+    text-align: left;
+}
 
 /*the subtitles are centered and have a font size of 50*/
 h2{
@@ -87,15 +86,14 @@ h2{
 .contactBack{
     background-color: var(--white);
 }
-/*make a border around the images that link to
-.app{
-    padding: 100px;
-    display: inline-flexbox;
-    flex-wrap: wrap;
-    background-color: var;
-    transition: transform .2s;
-    margin: 0 auto;  
-}*/
+.busi,
+.boo{
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10%;
+    border: 5px solid var(--cran);
+}
 /**makes the curser zoom in or the image when it passes over it*/
 .busi:hover,
 .boo:hover,
