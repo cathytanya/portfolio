@@ -1,4 +1,3 @@
-
 /*repeated css variables will be here*/
 :root {
     --cran: rgb(90, 0, 8);
@@ -34,7 +33,6 @@ h1{
     margin: 0 auto;
 }
 
-/*size of the title h1{font-size: 400%; color: var(--oran);}*/
 
 /*the nav bar links use the following*/
 /*the text is: bolded;spaced out flexible*/
@@ -48,20 +46,18 @@ nav a {
     color: var(--cran);
     padding: 14px 20px;
     text-decoration: none;
-    text-align: center
-    
-    /*
-    margin: 0;
-    padding: 0;
-    font-weight: bolder;
-    text-decoration: none;*/
-    
+    text-align: center   
 }
 
 nav a:hover{
     color: var(--white);
 }
 
+aside {
+    flex: 1;
+    background-color: lightgreen;
+    text-align: left;
+}
 
 p{
     line-height: initial;
