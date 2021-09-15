@@ -1,7 +1,8 @@
 
 /*repeated css variables will be here*/
 :root {
-    --cran: ##570303;
+    --cran: rgb(90, 0, 8);
+    --peac: rgb(212, 147, 24);
     --oran: rgb(253, 236, 205);
     --white: white;
     --green: rgb(13, 75, 13);
@@ -9,55 +10,55 @@
 
 /*setting the body of the site with the following attributes*/
 body {
-    display: flex;
     margin: 0;
+    display: flex;
     flex-direction: column;
-    line-height: 0.5;
+    min-height: 0;
+    justify-content: flex-start;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /*the header follows the following. background gif and the title is white*/
 header{
     display: flex;
-    align-items: center;
     background-image: url("https://c.tenor.com/P6SYovjQV0YAAAAC/autumn-leaves-falling.gif");
+    border-bottom: var(--cran);
+    border-width: thick;
+    border-style: solid;
     color: var(--oran);
-    line-height: 10px;
-    text-decoration-line: underline;
+    font-size: 200%;
+    border-width: 0cm;
+}
+/*center the title of the page*/
+h1{
+    margin: 0 auto;
 }
 
-/*size of the title*/
-h1{
-    font-size: 400%;
-}
+/*size of the title h1{font-size: 400%; color: var(--oran);}*/
 
 /*the nav bar links use the following*/
 /*the text is: bolded;spaced out flexible*/
-nav  {
-  display: flex;
-   flex-direction: row;
-   font-weight: bold;  
-   justify-content: space-between;
-   min-width: 300px;    
-};
+nav {
+  justify-content: flex-end;
+  background-color: var(--peac); 
+  display:inline-flex;
+  justify-content: space-between;
+  min-width: 300px;
+}
 
 nav a {
-    color: rgb(253, 236, 205);
-    font-size: 45;
-   
+    color: var(--cran);
+    margin: 0;
+    padding: 0;
+    font-weight: bolder;
+    text-decoration: none;
+    
 }
 
 nav a:hover{
     color: var(--white);
 }
-/*setting the photo of me with a border and centering it*/
-img {
-    display:inline;
-    margin: auto;
-    border: 10px inset var(--green);
-    width: 250px;
-    height: 200px;
-}
+
 
 p{
     line-height: initial;
@@ -114,24 +115,4 @@ h2{
 .fa-mail{
     background: rgb(133, 7, 150);
     color: white;
-}
-
-@media screen and (max-width: 968px) {
-   header{
-       flex-direction: column;
-   }
-}
-  
-@media screen and (max-width: 5760px) {
-    header{
-        flex-direction: column;
-    }
-}
-  
-  
-@media screen and (max-width: 330px){
-   header{
-        flex-direction: column;
-        display: flex;
-    }
 }
