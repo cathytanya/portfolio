@@ -15,6 +15,7 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
+    background-color: rgb(255, 117, 53);
     min-height: 0;
     justify-content: flex-start;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -31,7 +32,7 @@ header{
 }
 /*center the title of the page*/
 h1{
-    margin: 0 auto;
+    margin: auto;
 }
 
 
@@ -62,35 +63,43 @@ section{
     border: 15px double var(--cran);
 }
 
-p{
+/* p{
     line-height: initial;
     padding: initial;
-}
+} */
 
 /*the subtitles are centered and have a font size of 50*/
 h2{
     font-size: 50px;
     text-align: center;
 }
-#pictureMe{
+.me{
     position: relative;
-    left: 300;
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10%;
 }
-
-/*make a border around the images that link to*/
-.boo,
-.horiseon{
+/* the box of each class has a background white */
+.aboutMe,
+.appBack,
+.contactBack{
+    background-color: var(--white);
+}
+/*make a border around the images that link to
+.app{
     padding: 100px;
     display: inline-flexbox;
     flex-wrap: wrap;
-    background-color: rgb(4, 58, 4);
+    background-color: var;
     transition: transform .2s;
     margin: 0 auto;  
-}
+}*/
 /**makes the curser zoom in or the image when it passes over it*/
+.busi:hover,
 .boo:hover,
-.horiseon:hover,
-.picture:hover{
+.me:hover{
     transform: scale(1.1); 
 }
 /*attributes for the contact me icons*/
