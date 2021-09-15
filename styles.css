@@ -1,3 +1,4 @@
+
 /*repeated css variables will be here*/
 :root {
     --cran: ##570303;
@@ -9,25 +10,25 @@
 /*setting the body of the site with the following attributes*/
 body {
     display: flex;
+    margin: 0;
     flex-direction: column;
     line-height: 0.5;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-/*the header follows the following. background had a gradient and the title is white*/
+/*the header follows the following. background gif and the title is white*/
 header{
-    padding: 0px;
     display: flex;
     align-items: center;
-    padding: 1%;
-    background: url("https://64.media.tumblr.com/1af4fe94c08aeadb65f56374e700c9c9/tumblr_ntp6u4R7Fu1uefxi4o1_250.gifv");
-    color: var(--white);
+    background-image: url("https://c.tenor.com/P6SYovjQV0YAAAAC/autumn-leaves-falling.gif");
+    color: var(--oran);
     line-height: 10px;
+    text-decoration-line: underline;
 }
 
 /*size of the title*/
 h1{
-    font-size: 300%;
+    font-size: 400%;
 }
 
 /*the nav bar links use the following*/
