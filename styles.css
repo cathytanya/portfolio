@@ -53,6 +53,16 @@ nav a:hover{
 p{
     line-height: initial;
 }
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
 @media screen and (max-width: 968px) {
    header{
        flex-direction: column;
