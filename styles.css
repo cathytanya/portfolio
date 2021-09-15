@@ -22,7 +22,7 @@ header{
     padding: 1%;
     background: linear-gradient(#570303, #91430f);
     color: var(--white);
-    line-height: 5px;
+    line-height: 10px;
 }
 
 /*size of the title*/
@@ -50,6 +50,9 @@ nav a:hover{
     color: var(--white);
 }
 
+p{
+    line-height: initial;
+}
 @media screen and (max-width: 968px) {
    header{
        flex-direction: column;
