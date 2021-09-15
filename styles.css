@@ -26,7 +26,7 @@ header{
     border-width: thick;
     border-style: solid;
     color: var(--oran);
-    font-size: 200%;
+    font-size: 300%;
     border-width: 0cm;
 }
 /*center the title of the page*/
@@ -39,19 +39,22 @@ h1{
 /*the nav bar links use the following*/
 /*the text is: bolded;spaced out flexible*/
 nav {
-  justify-content: flex-end;
-  background-color: var(--peac); 
-  display:inline-flex;
-  justify-content: space-between;
-  min-width: 300px;
+    display: flex;
+    background-color: var(--peac);
+    justify-content : flex-end;
 }
 
 nav a {
     color: var(--cran);
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center
+    
+    /*
     margin: 0;
     padding: 0;
     font-weight: bolder;
-    text-decoration: none;
+    text-decoration: none;*/
     
 }
 
