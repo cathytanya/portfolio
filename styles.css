@@ -1,7 +1,7 @@
 /*repeated css variables will be here*/
 :root {
-    --cran: #5a0404;
-    --oran: orange;
+    --cran: ##570303;
+    --oran: rgb(253, 236, 205);
     --white: white;
     --green: rgb(13, 75, 13);
     
@@ -10,24 +10,30 @@
 body {
     display: flex;
     flex-direction: column;
-    line-height: 1.5;
+    line-height: 0.5;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 header{
     display: flex;
     justify-content: space-between;
-    padding: 0.5%;
-    background-color: var(--cran);
+    align-items: center;
+    padding: 1%;
+    background: linear-gradient(#570303, #91430f);
     color: var(--white);
 }
 h1{
-    font-size: xx-large;
-    font-family:Arial, Helvetica, sans-serif;
+    font-size: 300%;
 }
-ul {
-    list-style-type: none;
-    font-size: x-large;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
-  };
+nav ul {
+    display: flex;
+    justify-content: space-between;
+};
+
+nav a {
+    color: var(--oran);
+}
+
+nav a:hover{
+    color: var(--white);
+}
