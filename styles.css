@@ -15,25 +15,52 @@ body {
 }
 
 header{
+    padding: 0px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     padding: 1%;
     background: linear-gradient(#570303, #91430f);
     color: var(--white);
+    line-height: 5px;
 }
 h1{
     font-size: 300%;
+    
 }
 nav ul {
-    display: flex;
+    display: flex; 
+    list-style: none;
+    font-weight: bold;  
     justify-content: space-between;
+    min-width: 300px;    
 };
 
 nav a {
-    color: var(--oran);
+    color: rgb(253, 236, 205);
+    font-size: 45;
+   
 }
 
 nav a:hover{
     color: var(--white);
+}
+
+@media screen and (max-width: 968px) {
+   header{
+       flex-direction: column;
+   }
+}
+  
+@media screen and (max-width: 5760px) {
+    header{
+        flex-direction: column;
+    }
+}
+  
+  
+@media screen and (max-width: 330px){
+   header{
+        flex-direction: column;
+        display: flex;
+    }
 }
