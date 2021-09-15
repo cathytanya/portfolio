@@ -20,7 +20,7 @@ header{
     display: flex;
     align-items: center;
     padding: 1%;
-    background: linear-gradient(#570303, #91430f);
+    background: url("https://64.media.tumblr.com/1af4fe94c08aeadb65f56374e700c9c9/tumblr_ntp6u4R7Fu1uefxi4o1_250.gifv");
     color: var(--white);
     line-height: 10px;
 }
