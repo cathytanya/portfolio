@@ -4,9 +4,9 @@
     --oran: rgb(253, 236, 205);
     --white: white;
     --green: rgb(13, 75, 13);
-    
 }
 
+/*setting the body of the site with the following attributes*/
 body {
     display: flex;
     flex-direction: column;
@@ -14,6 +14,7 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+/*the header follows the following. background had a gradient and the title is white*/
 header{
     padding: 0px;
     display: flex;
@@ -23,10 +24,14 @@ header{
     color: var(--white);
     line-height: 5px;
 }
+
+/*size of the title*/
 h1{
     font-size: 300%;
-    
 }
+
+/*the nav bar links use the following*/
+/*the text is: bolded;spaced out flexible*/
 nav ul {
     display: flex; 
     list-style: none;
