@@ -49,11 +49,20 @@ nav a {
 nav a:hover{
     color: var(--white);
 }
+/*setting the photo of me with a border and centering it*/
+img {
+    display: block;
+    margin: auto;
+    border: 10px inset var(--green);
+}
 
 p{
     line-height: initial;
 }
 
+h2{
+    font-size: 50px;
+}
 /*attributes for the contact me icons*/
 .fa {
     padding: 20px;
