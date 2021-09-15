@@ -1,3 +1,11 @@
+
+:root {
+    --cran: #5a0404;
+    --oran: orange;
+    --white: white;
+    --green: rgb(13, 75, 13);
+    
+}
 body {
     display: flex;
     flex-direction: column;
