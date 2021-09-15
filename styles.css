@@ -54,6 +54,8 @@ img {
     display: block;
     margin: auto;
     border: 10px inset var(--green);
+    width: 250px;
+    height: 200px;
 }
 
 p{
