@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+  }
 /*repeated css variables will be here*/
 :root {
     --cran: rgb(90, 0, 8);
@@ -22,8 +25,6 @@ header{
     display: flex;
     background-image: url("https://c.tenor.com/P6SYovjQV0YAAAAC/autumn-leaves-falling.gif");
     border-bottom: var(--cran);
-    border-width: thick;
-    border-style: solid;
     color: var(--oran);
     font-size: 300%;
     border-width: 0cm;
@@ -53,10 +54,11 @@ nav a:hover{
     color: var(--white);
 }
 
+
 aside {
     flex: 1;
     background-color: lightgreen;
-    text-align: left;
+    padding: 100px;
 }
 
 p{
@@ -66,7 +68,7 @@ p{
 h2{
     font-size: 50px;
 }
-
+picture
 .boo,
 .horiseon,
 .picture{
@@ -75,8 +77,6 @@ h2{
     flex-wrap: wrap;
     background-color: rgb(4, 58, 4);
     transition: transform .2s;
-    width: 150px;
-    height: 150px;
     margin: 0 auto;  
 }
 
