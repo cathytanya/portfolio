@@ -65,6 +65,25 @@ p{
 h2{
     font-size: 50px;
 }
+
+.boo,
+.horiseon,
+.picture{
+    padding: 5px;
+    display: inline-flexbox;
+    flex-wrap: wrap;
+    background-color: rgb(4, 58, 4);
+    transition: transform .2s;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;  
+}
+
+.boo:hover,
+.horiseon:hover,
+.picture:hover{
+    transform: scale(1.1); 
+}
 /*attributes for the contact me icons*/
 .fa {
     padding: 20px;
