@@ -137,3 +137,20 @@ h2{
     background: black;
     color: white;
 }
+
+/* the media query is to change the background of the body when the site reaches the following width ranges */
+@media screen and (max-width: 990px){
+  body{
+      background-color: lightcoral;
+  }
+}
+@media screen and (max-width: 750px){
+    body{
+        background-color:rebeccapurple ;
+    }
+}
+@media screen and (max-width: 600px){
+    body{
+        background-color: var(--white);
+    }
+}
