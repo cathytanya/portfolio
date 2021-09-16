@@ -30,6 +30,17 @@ header{
     font-size: 300%;
     border-width: 0cm;
 }
+
+/* the css code for the footer will be presented below */
+footer {
+    margin-top: auto;
+    width: 100%;
+    bottom: 0;
+    padding: 20px;
+    text-align: center;
+    background-image: url("https://c.tenor.com/P6SYovjQV0YAAAAC/autumn-leaves-falling.gif");
+}
+
 /*center the title of the page*/
 h1{
     margin: auto;
