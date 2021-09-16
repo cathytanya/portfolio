@@ -48,13 +48,12 @@ h1{
 
 
 /*the nav bar links use the following*/
-/*the text is: bolded;spaced out flexible*/
 nav {
     display: flex;
     background-color: var(--peac);
     justify-content : flex-end;
 }
-
+/* the nav bar elements follow the following characteristics */
 nav a {
     color: var(--cran);
     padding: 14px 20px;
@@ -62,11 +61,12 @@ nav a {
     text-align: center; 
 }
 
+/* when the curser passes over the nav elements it would changed to white */
 nav a:hover{
     color: var(--white);
 }
 
-
+/* each of the sections in the html would have a boarder around it with the following attruibutes */
 section{
     height: 500px;
     width: 70%;
@@ -74,8 +74,9 @@ section{
     border: 15px double var(--cran);
 }
 
+/* all variables within the the section container in the html will be centered */
 section p {
-    text-align: left;
+    text-align: center;
 }
 
 /*the subtitles are centered and have a font size of 50*/
@@ -97,11 +98,11 @@ h2{
 .contactBack{
     background-color: var(--white);
 }
+/* the apps will appear in block formation */
 .busi,
 .boo{
-    display: inline;
-    margin-left: auto;
-    margin-right: auto;
+    display: block;
+    margin: auto;
     border-radius: 10%;
     border: 5px solid var(--cran);
 }
